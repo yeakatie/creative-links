@@ -1,5 +1,11 @@
-# Project #4 Pt. 10: Publish
+# UX portfolio
 
-- Web Design 1 Final, a single-page site showcasing UX work. Original URL: [https://kyeager.design/](https://kyeager.design/).
+- User Experience Design Portfolio created by Katie Yeager.
 
-- A Pen created on CodePen.io. Original URL: [https://codepen.io/kyeager/pen/rNGMLpG](https://codepen.io/kyeager/pen/rNGMLpG).
+- A work in progress.
+
+–––
+
+- Adapted from my Web Design 1 final, a single-page site showcasing UX work. Original URL: [https://kyeager.design/](https://kyeager.design/).
+
+  - Initial pen created on CodePen.io. Original URL: [https://codepen.io/kyeager/pen/rNGMLpG](https://codepen.io/kyeager/pen/rNGMLpG).
