@@ -1,8 +1,11 @@
 # My UX design portfolio website
 
 Hello,
-A version of my UX portfolio
-Thanks for reading
+
+Thanks for reading!
+
+- A version of my UX portfolio
+
 
 
 
