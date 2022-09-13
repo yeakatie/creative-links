@@ -4,7 +4,7 @@ Hello,
 
 Thanks for reading
 
-- Version of my UX portfolio that I coded.
+- Version of my UX portfolio I'm coding.
 
 
 
