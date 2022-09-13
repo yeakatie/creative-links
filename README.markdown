@@ -1,11 +1,13 @@
-# Working UX portfolio
+# My UX design portfolio website
 
-- User Experience Design Portfolio created by Katie Yeager.
+Hello,
 
-- A work in progress.
+- Thanks for reading
 
-–––
 
-- Forked from my Web Design 1 final, a single-page site showcasing UX projects. URL: [https://kyeager.design/](https://kyeager.design/).
 
-  - Initial pen created on CodePen.io. Original URL: [https://codepen.io/kyeager/pen/rNGMLpG](https://codepen.io/kyeager/pen/rNGMLpG).
+
+
+- Generated from my Web Design 1 final. URL: [https://kyeager.design/](https://kyeager.design/).
+
+  - Designed on CodePen.io, first. URL: [https://codepen.io/kyeager/pen/rNGMLpG](https://codepen.io/kyeager/pen/rNGMLpG).
