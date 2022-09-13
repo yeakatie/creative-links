@@ -469,7 +469,6 @@ h4 {
     padding-top: 0;
     margin-top: 0;
     line-height: 5.5rem;
-    border: #000000;
   }
 }
 
@@ -486,7 +485,6 @@ h4 {
   letter-spacing: 1.6px;
   color: #e85f5c;
   min-width: 8px;
-  border: #000000;
 }
 
 .email {
@@ -519,7 +517,6 @@ h4 {
   padding-bottom: 50px;
   align-items: center;
   width: auto;
-  border: #000000 1px solid;
 }
 
 @media (max-width: 1199.98px) {
