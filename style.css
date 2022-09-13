@@ -6,6 +6,7 @@
 }
 
 body {
+  overflow-x: hidden;
 }
 
 li {
@@ -85,9 +86,8 @@ a.header-nav-item {
   .header-nav-outer-wrapper {
     flex-direction: column;
     align-items: center;
-    width: 80%;
     margin: 0 auto;
-    max-width: 1150px;
+    max-width: auto;
   }
 }
 
@@ -100,7 +100,6 @@ a.header-nav-item {
   .header-nav-outer-wrapper {
     flex-direction: column;
     align-items: center;
-    width: 80%;
     margin: 0 auto;
     max-width: 1150px;
   }
@@ -199,7 +198,7 @@ h2 {
   #card-1 h2 {
     line-height: 2.75rem;
   }
-  .img {
+  img {
     max-width: 80%;
   }
 }
@@ -364,7 +363,7 @@ a.check-it-out:focus {
     padding-top: 40px;
     padding-bottom: 40px;
   }
-  .img {
+  img {
     width: 80%;
   }
 }
@@ -491,9 +490,10 @@ h4 {
   font-family: "Sofia-pro", sans-serif;
   font-style: normal;
   margin-left: 0;
-  margin-right: auto;
+  margin-right: 0;
   font-weight: bold;
-  font-size: 72px;
+  font-size: 5vw;
+  border:#000000 solid 1px;
   line-height: 12px;
   display: flex;
   align-items: left;
@@ -510,18 +510,19 @@ h4 {
 .contact-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: left;
   letter-spacing: 1.6px;
   margin: 30px 0;
   margin-top: 5rem;
   padding-bottom: 50px;
   align-items: center;
   width: auto;
+  border: #000000 solid 1px;
 }
 
 @media (max-width: 1199.98px) {
   .email {
-    font-size: 60px;
+    font-size: 35vw;
   }
 }
 
