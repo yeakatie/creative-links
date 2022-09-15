@@ -493,7 +493,7 @@ h4 {
   margin-right: 0;
   font-weight: bold;
   font-size: 5vw;
-  border:#000000 solid 1px;
+
   line-height: 12px;
   display: flex;
   align-items: left;
@@ -517,7 +517,6 @@ h4 {
   padding-bottom: 50px;
   align-items: center;
   width: auto;
-  border: #000000 solid 1px;
 }
 
 @media (max-width: 1199.98px) {
