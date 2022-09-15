@@ -2,15 +2,7 @@
 
 Hello,
 
-Thanks for reading
+Thanks for reading :)
 
-- Version of my UX portfolio I'm coding.
-
-
-
-
-
-
-- Generated from my Web Design 1 final. URL: [https://kyeager.design/](https://kyeager.design/).
-
-  -  on CodePen.io. URL: [https://codepen.io/kyeager/pen/rNGMLpG](https://codepen.io/kyeager/pen/rNGMLpG).
+- Version of my UX portfolio I'm coding
+- Work in progress
