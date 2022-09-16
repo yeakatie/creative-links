@@ -226,12 +226,12 @@ h3 {
   color: #000000;
 }
 
-.check-it-out {
+.project-details-button {
   text-align: center;
   align-items: center;
 }
 
-a.check-it-out {
+a.project-details-button {
   width: 114px;
   height: 36px;
   border: 1.5px solid #e85f5c;
@@ -250,7 +250,7 @@ a.check-it-out {
   text-decoration: none;
 }
 
-a.check-it-out:hover {
+a.project-details-button:hover {
   font-family: "Proxima-nova", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -265,7 +265,7 @@ a.check-it-out:hover {
   border: #f28e85 solid 1.5px;
 }
 
-a.check-it-out:active {
+a.project-details-button:active {
   font-family: "Proxima-nova", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -280,7 +280,7 @@ a.check-it-out:active {
   border: #f28e85 solid;
 }
 
-a.check-it-out:focus {
+a.project-details-button:focus {
   font-family: "Proxima-nova", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -376,7 +376,8 @@ a.check-it-out:focus {
 }
 
 .skills-container {
-  display: flex;
+  /* display: flex; */
+  display: none;
   flex-direction: column;
   padding: 7rem 5.5rem 5.5rem 5.5rem;
   width: auto;
@@ -621,6 +622,13 @@ a.footer-nav-item {
   margin: 10px 40px;
 }
 
+p.copyright-text {
+  font-size: 75%; /* 12/16px */
+  letter-spacing: -0.2px;
+  color: #bebebe;
+
+}
+
 footer {
   display: flex;
   position: relative;
@@ -671,7 +679,7 @@ footer p {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     max-width: 1125px;
   }
@@ -688,7 +696,7 @@ footer p {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     max-width: 1125px;
   }
@@ -704,7 +712,7 @@ footer p {
     flex-direction: column wrap;
     align-items: center;
     justify-content: space-around;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     max-width: 1125px;
   }

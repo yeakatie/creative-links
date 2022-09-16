@@ -39,9 +39,25 @@
     <link rel="manifest" href="favicons/site.webmanifest" />
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
 
+    <!-- Fonts -->
     <link rel="stylesheet" href="https://use.typekit.net/auh4vyu.css" />
+
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- Materialize icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
 
     <!-- Script -->
     <script defer src="script.js"></script>
@@ -56,14 +72,16 @@
         <a href="yeakatie.com" class="header-branding">ky.</a>
 
         <ul class="header-nav-item-wrapper">
-          <li><a href="#contact" class="header-nav-item">Contact</a></li>
+          <li>
+            <a href="#contact" class="header-nav-item">Contact</a>
+          </li>
           <li><a href="#about" class="header-nav-item">About</a></li>
           <li><a href="#work" class="header-nav-item">Work</a></li>
         </ul>
       </header>
     </nav>
 
-    <!-- H1 -->
+    <!-- h1 -->
     <div class="h1-wrapper">
       <h1 class="h1_top">Hi there,</h1>
       <h1 class="h1_middle">I'm</h1>
@@ -81,10 +99,7 @@
       <!-- Project 1 -->
       <div class="card" id="card-1">
         <!-- Image 1 -->
-        <img
-          src="https://i.imgur.com/JINEETd.png"
-          alt="interactive-web-design-preview"
-        />
+        <img src="" alt="interactive-web-design-project-preview" />
 
         <!-- Text 1 -->
         <div class="white-details-card">
@@ -93,19 +108,22 @@
 
           <!-- Project Description 1 -->
           <h3>
-            Creating a responsive web page layout that displays informati
-            Overwatch map cards.
+            Creating a responsive web layout that displays informative map
+            cards.
           </h3>
 
           <!-- Button 1 -->
-          <a href="#map-info-cards" class="check-it-out">Check It Out</a>
+          <a href="#map-info-cards" class="project-details-button">Details</a>
         </div>
       </div>
 
       <!-- Project 2 -->
       <div class="card" id="card-2">
         <!-- Image 2 -->
-        <img src="https://i.imgur.com/0lOiDUb.png" alt="thermostat-preview" />
+        <img
+          src="https://i.imgur.com/0lOiDUb.png"
+          alt="thermostat-project-preview"
+        />
 
         <!-- Text 2 -->
         <div class="white-details-card">
@@ -118,19 +136,19 @@
           </h3>
 
           <!-- Button 2 -->
-          <a href="#thermostat-page" class="check-it-out">Check It Out</a>
+          <a href="#thermostat-page" class="project-details-button">Details</a>
         </div>
       </div>
 
       <!-- Project 3 -->
       <div class="card" id="card-3">
         <!-- Image 3 -->
-        <img src="https://i.imgur.com/Yf7SvRr.png" alt="e-commerce-preview" />
+        <img src="" alt="-project-preview" />
 
         <!-- Text 3 -->
         <div class="white-details-card">
           <!-- Project Title 3 -->
-          <h2>E-commerce</h2>
+          <h2>Project Title</h2>
 
           <!-- Project Description 3 -->
           <h3>
@@ -138,19 +156,22 @@
           </h3>
 
           <!-- Button 3 -->
-          <a href="#e-commerce-page" class="check-it-out">Check It Out</a>
+          <a href="#e-commerce-page" class="project-details-button">Details</a>
         </div>
       </div>
 
       <!-- Project 4  -->
       <div class="card" id="card-4">
         <!-- Image 4 -->
-        <img src="https://i.imgur.com/IQDjny7.png" alt="catalyst-preview" />
+        <img
+          src="https://i.imgur.com/IQDjny7.png"
+          alt="catalyst-project-preview"
+        />
 
         <!-- Text 4 -->
         <div class="white-details-card">
           <!-- Project Title 4 -->
-          <h2>EWU Catalyst</h2>
+          <h2>EWU Catalyst Site</h2>
 
           <!-- Project Description 4 -->
           <h3>
@@ -159,57 +180,34 @@
           </h3>
 
           <!-- Button 4 -->
-          <a href="#ewu-catalyst-page" class="check-it-out">Check It Out</a>
+          <a href="#ewu-catalyst-page" class="project-details-button"
+            >Details</a
+          >
         </div>
       </div>
     </section>
 
-    <!-- About + Skills Sections -->
-    <div class="about-skills-container">
-      <!-- About -->
-      <div class="about-container">
-        <!-- Intro Head -->
-        <div class="about-intro">Meet Katie</div>
+    <!-- New Card Content -->
 
-        <!-- Body Copy -->
-        <p class="about-body-copy">
-          Hello! I'm a student based in Washington, currently obtaining a
-          Bachelor of Design in Visual Communication Design, a Minor in
-          Psychology, and a Certificate in User Experience Design.
-        </p>
-
-        <p class="about-body-copy">
-          I've been a curious person my entire life, and enjoy brainstorming and
-          problem solving. I'm proud of my ability to empathize, and am
-          fascinated by people and the way that they think and function. I value
-          honesty, quality, and the ability to learn and grow.
-        </p>
-
-        <p class="about-body-copy">
-          In my downtime, I enjoy discovering new things and playing games like
-          Overwatch and Clash Royale. I'm intrigued by tech/digital products,
-          beauty, health and wellness.
-        </p>
+    <!-- Food Pantry Project -->
+    <div class="card large">
+      <div class="card-image waves-effect waves-block waves-light">
+        <img class="activator" src="mdi-image" />
       </div>
-
-      <!-- Skills -->
-      <div class="skills-container">
-        <!-- Skills List -->
-        <ul class="skills">
-          <h4>
-            <li>Wireframing</li>
-            <li>
-              HTML<span class="punctuation">/</span>CSS<span class="punctuation"
-                >/</span
-              >JS
-            </li>
-            <li>Ideation <span class="punctuation">&</span> iteration</li>
-            <li>User research <span class="punctuation">&</span> testing</li>
-            <li>
-              Low <span class="punctuation">&</span> high fidelity prototyping
-            </li>
-          </h4>
-        </ul>
+      <div class="card-content">
+        <span class="card-title activator grey-text text-darken-4"
+          >EWU Food Pantry<i class="material-icons right">more_vert</i></span
+        >
+        <p><a href="#">This is a link</a></p>
+      </div>
+      <div class="card-reveal">
+        <span class="card-title grey-text text-darken-4"
+          >EWU Food Pantry<i class="material-icons right">close</i></span
+        >
+        <p>
+          Here is some more information about this product that is only revealed
+          once clicked on.
+        </p>
       </div>
     </div>
 
@@ -224,7 +222,9 @@
         <li><a href="#about" class="footer-nav-item">About</a></li>
         <li><a href="#contact" class="footer-nav-item">Contact</a></li>
       </ul>
-      <p class="copyright">copyright &copy; 2022</p>
+      <p class="copyright-text">
+        copyright © 2022 katie yeager. all rights reserved.
+      </p>
     </footer>
   </body>
 </html>
