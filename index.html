@@ -39,7 +39,7 @@
     <link rel="manifest" href="favicons/site.webmanifest" />
 
     <!-- Stylesheets -->
-    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link rel="stylesheet" href="style.css" />
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://use.typekit.net/auh4vyu.css" />
@@ -67,7 +67,7 @@
     <!-- This is where all of your regular content goes. All the code you’ve learned to write so far goes in here; your nav, your copy, images, headers, etc. -->
 
     <!-- Header navbar -->
-    <nav>
+    <!-- <nav>
       <header class="header-nav-outer-wrapper">
         <a href="yeakatie.com" class="header-branding">ky.</a>
 
@@ -79,7 +79,67 @@
           <li><a href="#work" class="header-nav-item">Work</a></li>
         </ul>
       </header>
+    </nav> -->
+
+    <!-- <ul class="sidenav" id="mobile-demo">
+      <li><a href="work.html">work</a></li>
+      <li><a href="about.html">about</a></li>
+      <li><a href="contact.html">contact</a></li>
+    </ul> -->
+
+    <!-- Navbar Content Here -->
+    <nav>
+      <div class="nav-wrapper">
+        <a href="yeakatie.com" class="left brand-logo">ky.</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger right"
+          ><i class="material-icons">menu</i></a
+        >
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="#work.html">work</a></li>
+          <li><a href="#about.html">about</a></li>
+          <li><a href="#contact.html">contact</a></li>
+        </ul>
+      </div>
     </nav>
+
+    <ul id="slide-out" class="sidenav">
+      <li>
+        <div class="user-view">
+          <div class="background">
+            <img src="" />
+          </div>
+          <a href="#user"><img class="circle" src="images/katie.jpg" /></a>
+          <a href="#name"
+            ><span class="black-text name"> <h4>Katie Yeager</h4></span></a
+          >
+          <a href="#email"
+            ><span class="grey-text email">yeakatie@outlook.com</span></a
+          >
+        </div>
+      </li>
+      <li><a class="subheader">MENU ——</a></li>
+      <li><a href="#!">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Get in touch</a></li>
+      <li><div class="divider"></div></li>
+      <li><a class="subheader">WORK ——</a></li>
+      <li>
+        <a href="#food-pantry"><i class="material-icons">work</i>Food Pantry</a>
+      </li>
+      <li>
+        <a href="#innovation-mural"
+          ><i class="material-icons">work</i>Energy Innovation Mural</a
+        >
+      </li>
+      <li>
+        <a href="#map-cards"
+          ><i class="material-icons">work</i>Map Information Cards</a
+        >
+      </li>
+    </ul>
+    <a href="#" data-target="slide-out" class="sidenav-trigger right"
+      ><i class="material-icons">menu</i></a
+    >
 
     <!-- h1 -->
     <div class="h1-wrapper">
@@ -187,36 +247,99 @@
       </div>
     </section>
 
-    <!-- New Card Content -->
 
-    <!-- Food Pantry Project -->
-    <div class="card large">
-      <div class="card-image waves-effect waves-block waves-light">
-        <img class="activator" src="mdi-image" />
-      </div>
+
+
+
+
+
+<!-- Food Pantry -->
+    <div class="card-image">
+      <img
+      class="responsive-img"
+      src="images/hal-gatewood-NaJ3s9y7GGE-unsplash.jpg"
+      alt="food-pantry-preview"
+      />
+    </div>
+
+    <!-- Food Pantry Card -->
+    <div class="card-panel teal waves-effect waves-light">
+      <a href="#pantry.html" class="project-link" style="overflow: auto">
       <div class="card-content">
-        <span class="card-title activator grey-text text-darken-4"
-          >EWU Food Pantry<i class="material-icons right">more_vert</i></span
-        >
-        <p><a href="#">This is a link</a></p>
+        <h2 class="card-title grey-text text-darken-4">
+          Food Pantry
+        </h2>
+
+        <h3 class="white-text flow-text">
+          Website redesign to improve food security on campus.
+        </h3>
       </div>
-      <div class="card-reveal">
-        <span class="card-title grey-text text-darken-4"
-          >EWU Food Pantry<i class="material-icons right">close</i></span
+
+      <div class="card-action left-align">
+        <a href="#pantry.html" class="btn-flat disabled white-text"
+          ><i class="material-icons right">arrow_forward</i>View project</a
         >
-        <p>
-          Here is some more information about this product that is only revealed
-          once clicked on.
-        </p>
       </div>
     </div>
+
+
+
+
+    <!-- Energy Innovation Lab Mural -->
+
+
+<!-- Energy Innovation Lab Mural Card -->
+<div class="card-panel teal waves-effect waves-light">
+  <a href="#mural.html" class="project-link" style="overflow: auto">
+  <div class="card-content">
+    <h2 class="card-title grey-text text-darken-4">
+      Energy Innovation Lab
+    </h2>
+
+    <h3 class="white-text flow-text">
+      Mural design proposal.
+    </h3>
+  </div>
+
+  <div class="card-action left-align">
+    <a href="#pantry.html" class="btn-flat disabled white-text"
+      ><i class="material-icons right">arrow_forward</i>View project</a
+    >
+  </div>
+</div>
+
+
+
+<!-- Map Info Cards -->
+
+
+<!-- Map Info Cards -->
+<div class="card-panel teal waves-effect waves-light">
+  <a href="#mapcards.html" class="project-link" style="overflow: auto">
+  <div class="card-content">
+    <h2 class="card-title grey-text text-darken-4">
+      Map Info Cards
+    </h2>
+
+    <h3 class="white-text flow-text">
+      Responsive web layout.
+    </h3>
+  </div>
+
+  <div class="card-action left-align">
+    <a href="#pantry.html" class="btn-flat disabled white-text"
+      ><i class="material-icons right">arrow_forward</i>View project</a
+    >
+  </div>
+</div>
+
 
     <div class="contact-container">
       <!-- <div class="say-hi">Say Hi!</div> -->
       <!-- <div class="email">yeakatie@outlook.com</div> -->
     </div>
 
-    <footer class="footer-nav-outer-wrapper">
+    <!-- <footer class="footer-nav-outer-wrapper">
       <ul class="footer-nav-item-wrapper">
         <li><a href="#work" class="footer-nav-item">Work</a></li>
         <li><a href="#about" class="footer-nav-item">About</a></li>
@@ -225,6 +348,40 @@
       <p class="copyright-text">
         copyright © 2022 katie yeager. all rights reserved.
       </p>
+    </footer> -->
+
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Get in touch</h5>
+            <p class="grey-text text-lighten-4">
+              yeakatie@outlook.com
+              <a class="nav-link-content" href="">
+                <i class="material-icons">email</i>
+              </a>
+            </p>
+          </div>
+
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Links</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#linkedin.html">
+                <i class="material-icons">linkedin</i>
+
+              </a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-text">
+        <div class="container center-align">
+          Copyright © 2022 Katie Yeager. All Rights Reserved.
+        </div>
+      </div>
     </footer>
   </body>
 </html>
