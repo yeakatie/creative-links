@@ -1,6 +1,6 @@
-This favicon was generated using the following font:
+This favicon was generated using the following graphics from Twitter Twemoji:
 
-- Font Title: Zen Dots
-- Font Author: Copyright 2021 The Dots Project Authors (https://github.com/googlefonts/zen-dots)
-- Font Source: http://fonts.gstatic.com/s/zendots/v10/XRXX3ICfm00IGoesQeaETM_FcCIG.ttf
-- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
+- Graphics Title: 1f535.svg
+- Graphics Author: Copyright 2020 Twitter, Inc and other contributors (https://github.com/twitter/twemoji)
+- Graphics Source: https://github.com/twitter/twemoji/blob/master/assets/svg/1f535.svg
+- Graphics License: CC-BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
