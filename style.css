@@ -604,14 +604,14 @@ a.footer-nav-item {
   display: block;
 }
 
-.footer-nav-outer-wrapper {
+/* .footer-nav-outer-wrapper {
   background-color: #4a4a4a;
   min-width: 100%;
   display: flex;
   flex-flow: row wrap;
   align-items: space-evenly;
   justify-content: center;
-}
+} */
 
 .footer-nav-item-wrapper {
   width: 100%;
@@ -722,4 +722,3 @@ footer p {
     flex-direction: row;
   }
 }
-
