@@ -1,0 +1,136 @@
+@import url("https://use.typekit.net/auh4vyu.css");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "sofia-pro", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  float: inline-end;
+}
+
+/* Style the navigation bar */
+#sidebar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 200px;
+  background-color: #f5f5f5;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+/* Style the minimize button */
+#minimize-button {
+  position: relative;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  cursor: pointer;
+  color: #333;
+}
+
+/* Style the minimized sidebar */
+#sidebar.minimize {
+  width: 50px;
+}
+
+#sidebar.minimize #minimize-button {
+  display: block;
+}
+
+#sidebar.minimize ul {
+  display: none;
+}
+
+/* Style the navigation links */
+#sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#sidebar li {
+  margin: 10px 0;
+}
+
+#sidebar a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Highlight the current navigation link */
+#sidebar a.active {
+  color: #0074d9;
+  font-weight: bold;
+}
+
+#sidebar a:hover {
+  color: #0074d9;
+}
+
+/* Style the main content */
+section {
+  position: relative;
+  padding: 200px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  #sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+  section {
+    margin: 0;
+  }
+}
+
+#work li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#work img {
+  max-width: 200px;
+  margin-right: 10px;
+}
+
+form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+footer p {
+  margin-top: 10%;
+  text-align: center;
+  padding: 10px;
+  background-color: #f5f5f5;
+}
