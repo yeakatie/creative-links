@@ -21,7 +21,7 @@ body {
 }
 
 /* Style the navigation bar */
-#sidebar {
+#topbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -48,41 +48,41 @@ body {
 }
 
 /* Style the minimized sidebar */
-#sidebar.minimize {
+#topbar.minimize {
   width: 50px;
 }
 
-#sidebar.minimize #minimize-button {
+#topbar.minimize #minimize-button {
   display: block;
 }
 
-#sidebar.minimize ul {
+#topbar.minimize ul {
   display: none;
 }
 
 /* Style the navigation links */
-#sidebar ul {
+#topbar ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-#sidebar li {
+#topbar li {
   margin: 10px 0;
 }
 
-#sidebar a {
+#topbar a {
   color: #333;
   text-decoration: none;
 }
 
 /* Highlight the current navigation link */
-#sidebar a.active {
+#topbar a.active {
   color: #0074d9;
   font-weight: bold;
 }
 
-#sidebar a:hover {
+#topbar a:hover {
   color: #0074d9;
 }
 
@@ -94,7 +94,7 @@ section {
 }
 
 @media (max-width: 600px) {
-  #sidebar {
+  #topbar {
     position: relative;
     width: 100%;
     height: auto;
