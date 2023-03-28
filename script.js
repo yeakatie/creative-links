@@ -1,13 +1,13 @@
 const minimizeButton = document.getElementById("minimize-button");
-const sidebar = document.getElementById("sidebar");
+const topbar = document.getElementById("topbar");
 
-minimizeButton.addEventListener("click", function(){
-  sidebar.classList.toggle("minimize");
-  if(sidebar.classList.contains("minimize")){
+minimizeButton.addEventListener("click", function () {
+  topbar.classList.toggle("minimize");
+  if (topbar.classList.contains("minimize")) {
     minimizeButton.innerHTML = "+";
-  }else{
+  } else {
     minimizeButton.innerHTML = "-";
   }
 });
 
-  
+document.getElementById("year").innerHTML = new Date().getFullYear();

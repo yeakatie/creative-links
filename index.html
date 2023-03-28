@@ -46,34 +46,34 @@
   </head>
 
   <body>
-    <div class="topbar-container">
-      <nav id="topbar">
-        <div id="minimize-button">-</div>
+
+    <header>
+ 
+      <nav>
         <ul>
-          <li><a href="#home" class="active">Katie Yeager</a></li>
-          <li><a href="html/about.html">About</a></li>
-          <li><a href="html/work.html">Work</a></li>
-          <li><a href="html/contact.html">Contact</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Work</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </nav>
+    </header>
 
-      <div class="main-content>
-      <section id="home"></section>
-      <section id="about">
-        <!-- content for the about section -->
-        <div id="about">
-          <h2>About Me</h2>
+    
+
+      <div class="page-content">
+
+
+   
+        <section id="about">
+          <h2>Katie Yeager</h2>
           <p>
-            I am a designer with a passion for creating beautiful and
-            user-friendly interfaces. I have experience in both web and mobile
-            design, and I am always looking for new challenges and opportunities
-            to improve my skills.
+            Experience Designer.
           </p>
-        </div>
-      </section>
+        </section>
+
       <section id="work">
         <!-- content for the work section -->
-        <div id="work">
           <h2>My Work</h2>
           <ul>
             <li>
@@ -87,11 +87,10 @@
               <p>A brief description of the project</p>
             </li>
           </ul>
-        </div>
+        
       </section>
       <section id="contact">
         <!-- content for the contact section -->
-        <div id="contact">
           <h2>Say Hello</h2>
           <form>
             <label for="name">Name:</label>
@@ -102,12 +101,14 @@
             <textarea id="message" name="message"></textarea><br />
             <input type="submit" value="Send" />
           </form>
-        </div>
+
       </section>
 
+      
+
       <footer>
-        <p>Copyright © 2022-2023 All rights reserved.</p>
+        <p>Copyright &copy; <span id="year"></span> Katie Yeager. All rights reserved. </p>
       </footer>
-    </div>
+      
   </body>
 </html>
