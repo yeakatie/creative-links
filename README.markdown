@@ -1,4 +1,4 @@
-# Katie Yeager UX Portfolio
+# Katie Yeager creative links
 
 Hello,
 
