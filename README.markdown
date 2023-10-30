@@ -2,10 +2,4 @@
 
 Hello,
 
-Thanks for reading :)
-
-- 👩‍💻 Coding my UX portfolio
-
-- 📄 My resume: here (coming soon!)
-
-
+This is a simple landing page for some of Katie's creative links. :)

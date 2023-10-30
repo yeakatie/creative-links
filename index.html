@@ -1,19 +1,15 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Katie Yeager UX Portfolio</title>
-
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="" />
-    <meta
-      name="description"
-      content="UX and visual designer with a passion for designing thoughtful and enjoyable user experiences."
-    />
+    <!-- seo meta tags -->
+    <meta name="description" content="Katie Yeager's landing page" />
+    <meta name="keywords" content="Katie Yeager, creative links" />
     <meta name="author" content="Katie Yeager" />
 
-    <!--only include target="_blank" if your page DOES NOT link to other parts of the page, other pages of your site-->
-    <base href="yeakatie.com" target="_blank" />
+    <title>Katie Yeager</title>
 
     <!--   Favicons   -->
     <link
@@ -36,85 +32,57 @@
     <link rel="manifest" href="favicons/site.webmanifest" />
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="css/styles.css" />
-
-    <!-- Fonts -->
-    <link rel="stylesheet" href="https://use.typekit.net/auh4vyu.css" />
+    <link rel="stylesheet" href="style.css" />
 
     <!-- Script -->
     <script defer src="script.js"></script>
+    <!-- JS Tilt -->
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"
+    ></script>
+
+    <!-- Font Awesome -->
+    <script defer src="https://kit.fontawesome.com/070428bd88.js"></script>
   </head>
-
   <body>
-
-    <header>
- 
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Work</a></li>
-          <li><a href="#">Contact</a></li>
+    <div class="container">
+      <section class="head">
+        <img src="https://placehold.it/200x200" alt="profile picture" />
+        <p>🦋</p>
+      </section>
+      <div class="links">
+        <ul id="item">
+          <li class="behance">
+            <a href="https://www.behance.net/yeakatie">
+              <i class="fa fa-behance"></i>
+              <span>
+                <h3>yeakatie</h3>
+                <p>on Behance</p>
+              </span>
+            </a>
+          </li>
+          <li class="github">
+            <a href="https://github.com/yeakatie">
+              <i class="fa fa-github"></i>
+              <span>
+                <h3>yeakatie</h3>
+                <p>on GitHub</p>
+              </span>
+            </a>
+          </li>
+          <li class="linkedin">
+            <a href="https://linkedin.com/in/yeakatie">
+              <i class="fa fa-linkedin"></i>
+              <span>
+                <h3>yeakatie</h3>
+                <p>on LinkedIn</p>
+              </span>
+            </a>
+          </li>
         </ul>
-      </nav>
-    </header>
-
-    
-
-      <div class="page-content">
-
-
-   
-        <section id="about">
-          <h2>Katie Yeager</h2>
-          <p>
-            UX Design
-          </p>
-        </section>
-
-      <section id="work">
-        <!-- content for the work section -->
-          <h2>My Work</h2>
-          <ul>
-            <li>
-              <h3>Project 1</h3>
-              <img src="project1.jpg" alt="project 1" />
-              <p>A brief description of the project</p>
-            </li>
-            <li>
-              <h3>Project 2</h3>
-              <img src="project2.jpg" alt="project 2" />
-              <p>A brief description of the project</p>
-            </li>
-          </ul>
-        
-      </section>
-      <section id="contact">
-        <!-- content for the contact section -->
-          <h2>Say Hello</h2>
-          <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" /><br />
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" /><br />
-            <label for="message">Message:</label>
-            <textarea id="message" name="message"></textarea><br />
-            <input type="submit" value="Send" />
-          </form>
-
-      </section>
-
-      
-
-      <footer>
-        <p>&copy; <span id="copyright-year">2000</span>. All rights reserved. </p>
-      </footer>
-      <!-- copyright-year should always be the current year i.e. 2023 -->
-      <script>
-        const currentYear = new Date().getFullYear();
-        document.getElementById("copyright-year").innerHTML = currentYear;
-      </script>
-
-      
+      </div>
+    </div>
+    <footer>© 2023. All rights reserved.</footer>
   </body>
 </html>
