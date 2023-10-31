@@ -76,7 +76,8 @@ i {
 .links ul li a span {
   line-height: 1.4rem;
 }
-.links ul .behance:hover {
+.links ul .behance:hover,
+.links ul .resume:hover {
   /* background: #4961fd; */
   background: rgb(73, 97, 253);
 }
@@ -85,7 +86,8 @@ i {
   /* background: #dd5143; */
   background: #00a0dc;
 }
-.links ul .github:hover {
+.links ul .github:hover,
+.portfolio:hover {
   background: #333;
 }
 
@@ -95,7 +97,9 @@ i {
 
 .behance:active,
 .linkedin:active,
-.github:active {
+.github:active,
+.resume:active,
+.portfolio:active {
   /* styled to look like button being pushed in - active state for links */
   transform: translate(0.2rem, 0.2rem);
 }
