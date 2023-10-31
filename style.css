@@ -24,14 +24,20 @@ body {
   width: 30em;
 }
 
+img {
+  pointer-events: none;
+}
+
 .head img {
-  display: block;
-  margin: 0 auto;
   height: 5rem;
   width: 5rem;
+  margin: 0 auto;
+  display: block;
   object-fit: cover;
+  object-position: center;
   border-radius: 50%;
 }
+
 .head p {
   text-align: center;
   color: #fff;
