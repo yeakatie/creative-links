@@ -4,3 +4,4 @@ console.log("Hello World, Page Loaded 🧚‍♂️✨👍");
 
 const currentYear = new Date().getFullYear();
 document.getElementById("copyright-year").innerHTML = currentYear;
+
