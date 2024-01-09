@@ -36,12 +36,12 @@ body {
   display: block;
   object-fit: cover;
   object-position: center;
-  border-radius: 50%;
 }
 
 h2 {
+  display: none;
   text-align: center;
-  line-height: ;
+  line-height: 0;
 }
 
 .head p {
