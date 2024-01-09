@@ -14,18 +14,19 @@ a {
 }
 
 body {
-  height: 100vh;
+  margin: 0;
   display: grid;
   place-items: center;
+  height: 100vh;
   background: #190909;
   font-family: "Josefin Sans", sans-serif;
-}
-.container {
-  width: 30em;
+  color: white;
+  font-size: 1rem;
 }
 
-img {
-  pointer-events: none;
+.container {
+  width: 30em;
+  padding: 2rem;
 }
 
 .head img {
@@ -38,9 +39,13 @@ img {
   border-radius: 50%;
 }
 
+h2 {
+  text-align: center;
+  line-height: 0;
+}
+
 .head p {
   text-align: center;
-  color: #fff;
   padding-top: 1rem;
 }
 
