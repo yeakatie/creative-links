@@ -1,4 +1,4 @@
-console.log("Hello World, Page Loaded 🧚‍♂️✨👍");
+console.log("Hello World, Page Loaded 🚀😊👍");
 
 function getRandomEmoji() {
   var emojis = [
