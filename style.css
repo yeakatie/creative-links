@@ -18,26 +18,13 @@ body {
   margin: 0;
   display: grid;
   place-items: center;
-  height: 100vh;
+
   /* background: #190909; */
-  background: linear-gradient(45deg, #190909, rgb(73, 97, 253)); /* Gradient */
-  animation: gradient-shift 15s ease infinite;
+  background: linear-gradient(45deg, #190909, rgb(73, 97, 253));
 
   font-family: "Josefin Sans", sans-serif;
   color: white;
   font-size: 1rem;
-}
-
-@keyframes gradient-shift {
-  0% {
-    background-position: 50% 0%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
 }
 
 .container {
