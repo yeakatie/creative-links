@@ -21,7 +21,6 @@ body {
 
   /* background: #190909; */
   background: linear-gradient(45deg, #190909, rgb(73, 97, 253));
-
   font-family: "Josefin Sans", sans-serif;
   color: white;
   font-size: 1rem;
@@ -81,23 +80,22 @@ i {
   line-height: 4rem;
   font-size: 1.8rem;
   transform: scale(1.4) translateZ(50px);
-  transition: 0.25s;
 }
 .links ul li a span {
   line-height: 1.4rem;
 }
-.links ul .behance:hover,
-.links ul .resume:hover {
+.links ul .behance:active,
+.links ul .resume:active {
   /* background: #4961fd; */
   background: rgb(73, 97, 253);
 }
 
-.links ul .linkedin:hover {
+.links ul .linkedin:active {
   /* background: #dd5143; */
   background: #00a0dc;
 }
-.links ul .github:hover,
-.portfolio:hover {
+.links ul .github:active,
+.portfolio:active {
   background: #333;
 }
 
@@ -111,7 +109,7 @@ i {
 .resume:active,
 .portfolio:active {
   /* styled to look like button being pushed in - active state for links */
-  transform: translate(0.2rem, 0.2rem);
+  /* transform: translate(0.2rem, 0.2rem); */
 }
 
 @media only screen and (max-width: 549px) {
