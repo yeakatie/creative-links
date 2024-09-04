@@ -15,12 +15,56 @@ a {
 }
 
 body {
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  background-color: #111;
+  color: #fff;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.countdown-timer {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media a {
+  margin: 0 10px;
+}
+
+.social-media img {
+  width: 32px;
+  height: 32px;
+}
+
+/* body {
   margin: 0;
   display: grid;
-  place-items: center;
+  place-items: center; */
 
-  /* background: #190909; */
-  background: linear-gradient(45deg, #190909, rgb(73, 97, 253));
+/* background: #190909; */
+/* background: linear-gradient(45deg, #190909, rgb(73, 97, 253));
   font-family: "Josefin Sans", sans-serif;
   color: white;
   font-size: 1rem;
@@ -39,11 +83,11 @@ body {
   object-fit: cover;
   object-position: center;
   border-radius: 50%;
-}
+} */
 
 /*  */
 
-.head p {
+/* .head p {
   text-align: center;
   padding-top: 1rem;
 }
@@ -51,17 +95,17 @@ body {
 i {
   padding-left: 1rem;
   padding-right: 1.2rem;
-}
+} */
 
-.links ul li {
+/* .links ul li {
   width: 100%;
   margin: 1.2rem 0;
   padding: 0.4rem 0.8rem;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(0px);
-  border-radius: 5px;
-  /* white gradient border */
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 5px; */
+/* white gradient border */
+/* border: 1px solid rgba(255, 255, 255, 0.1);
   transition: background 0.25s;
   transform-style: preserve-3d;
   perspective: 500px;
@@ -85,23 +129,23 @@ i {
   line-height: 1.4rem;
 }
 .links ul .behance:active,
-.links ul .resume:active {
-  /* background: #4961fd; */
-  background: rgb(73, 97, 253);
-}
-
-.links ul .linkedin:active {
-  /* background: #dd5143; */
-  background: #00a0dc;
+.links ul .resume:active { */
+/* background: #4961fd; */
+/* background: rgb(73, 97, 253);
+} */
+/* 
+.links ul .linkedin:active { */
+/* background: #dd5143; */
+/* background: #00a0dc;
 }
 .links ul .github:active,
 .portfolio:active {
   background: #333;
-}
+} */
 
-.links ul li:hover {
+/* .links ul li:hover {
   border: 1px solid rgba(255, 255, 255, 0.2);
-}
+} */
 
 .behance:active,
 .linkedin:active,
@@ -118,8 +162,8 @@ i {
   }
 }
 
-footer {
+/* footer {
   text-align: center;
   color: hsl(207, 24%, 56%);
   font-size: 0.75rem;
-}
+} */
