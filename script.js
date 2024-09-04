@@ -1,4 +1,4 @@
-console.log("Hello World, Page Loaded 🚀😊👍");
+console.log("Hello World, Page Loaded");
 
 const countdownElement = document.querySelector(".countdown-timer");
 const countdown = new Date("2024-12-31T23:59:59").getTime();
